@@ -9,6 +9,7 @@ public class PairSum {
 				if((arr[i]+arr[j])==x) {
 					System.out.println("Elements are ("+arr[i]+","+arr[j]+")");
 					count++;
+					System.out.print("aaa");
 				}
 			}
 		}
