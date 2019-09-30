@@ -14,7 +14,7 @@ public class FindCountDuplicates {
 		}
 		
 		for(int i=97;i<=122;i++) {
-			if(ascii[i]>1) {
+			if(ascii[i]>0) {
 				System.out.println(Character.toString((char)i)+"-"+ascii[i]);
 			}
 		}

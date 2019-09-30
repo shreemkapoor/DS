@@ -1,4 +1,4 @@
-package com.strings;
+	package com.strings;
 
 public class ExtraCharacter {
 

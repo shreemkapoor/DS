@@ -5,7 +5,7 @@ public class DuckNumber {
 	public static void checkDuck(String s) {
 		int count=0;
 		if(s.charAt(0)=='0') {
-			System.out.println("Number is not a duck number");
+			System.out.println("Not a duck number");
 		}
 		else {
 			for(int i=0;i<s.length();i++) {
@@ -17,12 +17,11 @@ public class DuckNumber {
 				System.out.println("Number is a duck number");
 			}
 			else 
-				System.out.println("Number is not a duck number");
+				System.out.println("Not a duck number");
 		}
 	}
 	
 	public static void main(String[] args) {
 		checkDuck("7769");
 	}
-
 }
