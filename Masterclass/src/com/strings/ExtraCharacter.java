@@ -49,7 +49,7 @@ public class ExtraCharacter {
 	        // if the frequency is 1 then this 
 	        // character is which is added extra 
 	        if (m1[i]== 1) 
-	            return (char) i; 
+	            return (char) i;
 	    } 
 	    return Character.MIN_VALUE; 
 	} 
