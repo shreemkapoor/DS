@@ -2,6 +2,31 @@ package com.inheritance;
 
 class Animal {
 	
+	 public static void main(String[] args) {
+	    	//Dog a = new Animal();
+	    	Animal an = new Animal();
+	    	System.out.println("1: "+(an instanceof Dog));//true  
+	    	Dog d= new Dog();
+	    	System.out.println("2: "+(d instanceof Dog));
+	    	Animal b = new Dog();
+	    	System.out.println("3: "+(b instanceof Animal));
+	    	System.out.println("4: "+(b instanceof Dog));
+	        b.show();
+	    	//Animal a = new Animal();
+	    	
+	    	
+	    	//d.derivedfun();
+	    	b.derivedfun();
+	        d.show();
+	        d.derivedfun();
+	    }
+	
+	
+	
+	
+	
+	
+	
 	Animal(){
 		System.out.println("Animal Constructor");
 	}
@@ -32,18 +57,5 @@ class Dog extends Animal {
 }
   
 class Main {
-    public static void main(String[] args) {
-    	//Dog a = new Animal();
-    	Animal an = new Animal();
-    	Dog d= new Dog();
-    	Animal b = new Dog();
-        b.show();
-    	//Animal a = new Animal();
-    	
-    	
-    	//d.derivedfun();
-    	b.derivedfun();
-        d.show();
-        d.derivedfun();
-    }
+   
 }
